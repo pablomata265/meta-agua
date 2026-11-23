@@ -1,0 +1,31 @@
+   
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Meta de Água</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <div class="cabecalho">
+    <span>Meta de Água</span>
+    <span id="texto-status">0 / 2500 ml</span>
+  </div>
+
+  <div class="barra-etapas" id="barra">
+      <div class="etapa">500 ml</div>
+      <div class="etapa">1000 ml</div>
+    <div class="etapa">1500 ml</div>
+    <div class="etapa">2000 ml</div>
+    <div class="etapa">2500 ml</div>
+  </div>
+
+  <button onclick="beberAgua()">+ 500 ml</button>
+  <button class="reset" onclick="resetar()">Zerar</button>
+  <p id="mensagem-meta" class="mensagem-meta" hidden>🎉 Parabéns! Você bateu a meta de hoje!</p>
+
+  <script src="./script.js"></script>
+</body>
+</html>
