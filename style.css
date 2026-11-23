@@ -76,3 +76,29 @@ button:disabled {
   font-weight: bold;
   text-align: center;
 }
+.titulo-historico {
+  margin-top: 32px;
+  font-size: 16px;
+  color: #1e3a8a;
+}
+
+.contador-dias {
+  font-size: 14px;
+  color: #475569;
+}
+
+.lista-dias {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.lista-dias li {
+  background-color: #dbeafe;
+  color: #1e40af;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 13px;
+}
